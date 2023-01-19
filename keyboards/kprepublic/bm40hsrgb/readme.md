@@ -12,8 +12,8 @@ This firmware was originally taken from a kbfirmware.json and manually converted
 
 Make example for this keyboard (after setting up your build environment):
 
-    for rev1: make kprepublic/bm40hsrgb/rev1:default
-    for rev2: make kprepublic/bm40hsrgb/rev2:default
+    make kprepublic/bm40hsrgb/rev1:default
+    make kprepublic/bm40hsrgb/rev2:default
 
 Flashing example for this keyboard:
 
