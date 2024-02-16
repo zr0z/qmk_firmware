@@ -1,0 +1,72 @@
+{
+    "manufacturer": "takomecha",
+    "keyboard_name": "takomecha/tako10",
+    "maintainer": "takomecha",
+    "bootloader": "rp2040",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "rgb_matrix": true
+    },
+    "matrix_pins": {
+        "direct": [
+            [
+                "GP1",
+                "GP2",
+                "GP4",
+                "GP0",
+                "GP7",
+                "GP6",
+                "GP29",
+                "GP28",
+                "GP27",
+                "GP26"
+            ]
+        ]
+    },
+    "processor": "RP2040",
+    "url": "https://github.com/takomecha",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0300",
+        "vid": "0x8475"
+    },
+    "layouts": {
+        "LAYOUT_row_10": {
+            "layout": [
+                { "matrix": [0, 0], "x": 0, "y": 0 },
+                { "matrix": [0, 1], "x": 1, "y": 0 },
+                { "matrix": [0, 2], "x": 2, "y": 0 },
+                { "matrix": [0, 3], "x": 3, "y": 0 },
+                { "matrix": [0, 4], "x": 4, "y": 0 },
+                { "matrix": [0, 5], "x": 5, "y": 0 },
+                { "matrix": [0, 6], "x": 6, "y": 0 },
+                { "matrix": [0, 7], "x": 7, "y": 0 },
+                { "matrix": [0, 8], "x": 8, "y": 0 },
+                { "matrix": [0, 9], "x": 9, "y": 0 }
+            ]
+        }
+    },
+    "rgb_matrix": {
+        "driver": "WS2812",
+        "layout": [
+            { "x": 0, "y": 0, "flags": 2 },
+            { "x": 1, "y": 0, "flags": 2 },
+            { "x": 2, "y": 0, "flags": 2 },
+            { "x": 3, "y": 0, "flags": 2 },
+            { "x": 4, "y": 0, "flags": 2 },
+            { "x": 5, "y": 0, "flags": 2 },
+            { "x": 6, "y": 0, "flags": 2 },
+            { "x": 7, "y": 0, "flags": 2 },
+            { "x": 8, "y": 0, "flags": 2 },
+            { "x": 9, "y": 0, "flags": 2 }
+        ]
+    },
+    "tapping": {
+        "hold_on_other_key_press": true
+    }
+}
